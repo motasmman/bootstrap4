@@ -1,0 +1,54 @@
+.splash-screen {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('öken.jpg');
+    background-size: cover;
+}
+
+.splash-screen .cta {
+    padding: 22px;
+    background-color: rgba (0,0,0,0,5);
+    color: #fff;
+    border-radius: 15px;
+}
+
+
+#abou h2 {
+    text-transform: uppercase;
+}
+
+#about .card {
+    border: none;
+}
+
+#about .card .top{
+    text-align: center;
+}
+
+#about .card .top i {
+    font-size: 4rem;
+}
+
+#parallax {
+    background-image: url('whter1.jpg');
+    height: 50vh;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#parallax .tagline {
+    padding: 15px 40px;
+    background-color: rgb(0,0,0,0.7);
+    border-radius: 4px;
+}
+
+#footer{
+    background-color: #423112;
+    color: #fff;
+    padding: 10px;
+}
